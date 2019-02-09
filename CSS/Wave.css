@@ -1,0 +1,48 @@
+.Wave{
+    position: absolute;
+    width: 100%;
+    height: 143px;
+    bottom: 0;
+    left: 0;
+    background: url(../Images/wave.png);
+    animation: animatewave 10s linear infinite;
+}
+.Wave::before{
+    content: '';
+    width: 100%;
+    height: 143px;
+    background: url(../Images/wave.png);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+    animation: animatewave-reverse 10s linear infinite;
+}
+.Wave::after{
+    content: '';
+    width: 100%;
+    height: 143px;
+    background: url(../Images/wave.png);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.6;
+    animation-delay: -5s;
+    animation: animatewave 30s linear infinite;
+}
+@keyframes animatewave{
+    0%{
+        background-position: 0;
+    }
+    100%{
+        background-position: 1360px;
+    }
+}
+@keyframes animatewave-reverse{
+    0%{
+        background-position: 1360px;
+    }
+    100%{
+        background-position: 0;
+    }
+}

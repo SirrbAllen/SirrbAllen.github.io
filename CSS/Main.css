@@ -1,0 +1,139 @@
+/* General styling */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: calc(40px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+    line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
+}
+h2 {
+    font-size: calc(30px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+    line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
+    color: #0099ff;
+}
+p {
+    font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+    line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
+}
+
+/* Top welcome section */
+
+.BackgroundImage {
+    height: 100vh;
+    background-color: #0099ff;
+    background-image: url("../Images/Me.jpeg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-filter: blur(20px);
+    -moz-filter: blur(20px);
+    -o-filter: blur(20px);
+    -ms-filter: blur(20px);
+    filter: blur(20px);
+}
+.Me {
+    text-align: center;
+    position: relative;
+    bottom: 75vh;
+    color: white;
+    font-size: 30px;
+}
+.Me > img {
+    width: 300px;
+    border-radius: 50%;
+}
+.Me > a {
+    border: solid 5px;
+    color: #0099ff;
+    border-color: #0099ff;
+    border-radius: 40px;
+    text-decoration: none;
+    padding: 10px;
+    transition: all 1s;
+}
+.Me > a:hover {
+    color: white;
+    border-color: white;
+    transition: all 1s;
+}
+.Top {
+    height: 0;
+}
+.Wave {
+    top: 89vh;
+}
+
+/* Welcome message */
+
+.Container {
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+}
+.WelcomeMessage {
+    background-color: #0099ff;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-size: 35px;
+}
+
+/* My skills section */
+
+.Columns {
+    text-align: center;
+    margin-top: 2em;
+}
+.Column {
+    padding: 50px 30px;
+    border-bottom: 1px solid #E6ECF8;
+    border-right: 0 solid #E6ECF8;
+    text-align: center;
+    display: block;
+}
+.Column i {
+    font-size: 40px;
+}
+.Column ul {
+    list-style-type: none;
+    padding: 0;
+}
+@media screen and (min-width: 1365px) {
+    .Column {
+        display: inline-block;
+        border-bottom: 0 solid #E6ECF8;
+        border-right: 1px solid #E6ECF8;
+        padding: 60px 10px;
+    }
+}
+.ColumnLast {
+    border-right: none;
+}
+
+/*My work section */
+
+.WorkText {
+    text-align: center;
+}
+.Project {
+    display: inline;
+}
+.Project img {
+    width: 100%;
+}
+.Project figure {
+    width: 33%;
+}
+.Footer{
+    height: 50px;
+    background-color: #0099ff;
+    padding: 30px;
+    margin-top: 2em;
+}
+.Footer .Container p{
+    font-size: 14px;
+}
