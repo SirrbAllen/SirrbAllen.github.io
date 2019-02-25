@@ -79,6 +79,7 @@ p {
     text-align: center;
     color: white;
     padding: 20px;
+    padding-top: 30px;
     font-size: 35px;
 }
 
@@ -136,4 +137,5 @@ p {
 }
 .Footer .Container p{
     font-size: 14px;
+    color: white;
 }
