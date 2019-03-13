@@ -1,24 +1,101 @@
-ul {
+/* General styling */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: calc(40px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+    line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
+    color: #141311;
+}
+h2 {
+    font-size: calc(30px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+    line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
+    color: #0099ff;
+}
+p {
+    font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+    line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
+    color: #141311;
+}
+
+.Container {
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+}
+
+/* Nav bar */
+
+.Navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #0099ff;
-  }
-  
-  li {
+}
+
+.Navbar li {
     float: left;
-  }
-  
-  li a {
+}
+
+.Navbar li a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  }
-  
-  /* Change the link color to #111 (black) on hover */
-  li a:hover {
-    background-color: #111;
-  }
+}
+
+/* Change the link color to #111 (black) on hover */
+.Navbar li a:hover {
+    background-color: #007dd1;
+}
+
+/* Top image */
+
+.Top {
+    background-image: url("../images/Robot.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    display: table-cell;
+    vertical-align: middle;
+    width: 100vw;
+}
+
+.Top h1 {
+    text-align: center;
+    margin: 0;
+    color: white;
+}
+
+.VideoContainer {
+    max-width: 560px;
+    max-height: 315px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.DocumentationLinks {
+    text-align: center;
+}
+.DocumentationLinks img {
+    height: 20vh;
+    margin: 0 auto;
+}
+
+.Footer {
+    height: 50px;
+    background-color: #0099ff;
+    padding: 30px;
+    margin-top: 2em;
+}
+.Footer .Container p {
+    font-size: 14px;
+    color: white;
+}
