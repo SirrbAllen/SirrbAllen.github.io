@@ -58,7 +58,7 @@ p {
 /* Top image */
 
 .Top {
-    background-image: url("../images/Robot.jpg");
+    background-image: url("../images/robot.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
