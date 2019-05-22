@@ -33,8 +33,7 @@ p {
 .BackgroundImage {
     height: 100vh;
     background-color: #E8F1F2;
-    /*
-    background-image: url("../images/background-background-image-clear-sky-1054222.jpg");
+    background-image: url("../images/me2.jpeg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -43,7 +42,6 @@ p {
     -o-filter: blur(20px);
     -ms-filter: blur(20px);
     filter: blur(20px);
-    */
 }
 .Me {
     text-align: center;

@@ -55,23 +55,35 @@ p {
 }
 
 /* Top image */
-
-#2018Robot {
-    background-image: url("../images/2018Robot.jpg");
-}
-
-#2019Robot {
-    background-image: url("../images/robot.jpg");
-}
-
 .Top {
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: cover;
     height: 70vh;
     display: table-cell;
     vertical-align: middle;
     width: 100vw;
+}
+
+.Robot2018 {
+    background-image: url("../images/2018Robot.jpg");
+    background-size: cover;
+}
+
+.Robot2019 {
+    background-image: url("../images/robot.jpg");
+    background-size: cover;
+}
+
+.Theo {
+    background-image: url("../images/theo.jpg");
+    background-size: inherit;
+    background-position: center;
+
+}
+
+.Cadet2D {
+    background-image: url("../images/Cadet\ 1.png");
+    background-size: cover;
 }
 
 .Top h1 {
@@ -100,6 +112,10 @@ p {
 .DocumentationLinks img {
     height: 20vh;
     margin: 0 auto;
+}
+
+.Screenshot {
+    width: 25%;
 }
 
 .Footer {
